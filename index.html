@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<title>iraProduction</title>
+
+	<script defer src="/__/firebase/9.23.0/firebase-app-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-auth-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-database-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-firestore-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-functions-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-messaging-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-storage-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-analytics-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-remote-config-compat.js"></script>
+	<script defer src="/__/firebase/9.23.0/firebase-performance-compat.js"></script>
+	<script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
+
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="hero-section">
+				<!-- pc -->
+				<video autoplay muted loop id="myVideo">
+					<source src="./img/icons/logo.mp4" type="video/mp4" class="hero">
+				</video>
+				<!-- mobile -->
+				<div class="herospace">
+					<img data-speed=".6" class="hero-img" src="img/icons/iraBlack-removebg-preview.png"
+						alt="imagem logo ira productions">
+
+
+				</div>
+
+				<div class="usaMode">
+					<input type="checkbox" class="checkbox" id="chk" />
+					<label class="label" for="chk">
+						<i><img src="./img/icons/eua.png" alt="usa icon"></i>
+						<i><img src="./img/icons/brasil.png" alt="brasil icon"></i>
+						<div class="ball"></div>
+					</label>
+				</div>
+				<div class="contato">
+
+				</div>
+
+		
+				<div class="btn-box">
+					<a href="https://wa.link/z1oiij"
+						target="_blank">Vamos conversar
+					</a>
+				</div>
+
+			</header>
+
+
+
+
+			<section class="portfolio" id="projects">
+				<div class="container">
+
+					<h2 class="clients">Clientes</h2>
+
+					<!-- Para pc -->
+					<main class="gallery">
+
+
+						<!-- left -->
+						<div data-speed=".9" class="gallery__left">
+
+							<a href="https://www.youtube.com/watch?v=n9QDa-a0nGc&ab_channel=PaulinhoCS%3AGO"
+								target="_blank">
+
+								<img class="gallery__item" src="img/work/7.jpg" alt="Alt">
+
+							</a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Paulinho</h2>
+								<p class="text-block__p">
+									Canal voltado para conteúdo de Counter Strike
+								</p>
+							</div>
+
+							<a href="https://www.youtube.com/watch?v=5fCXXSJu0Ag&ab_channel=HeroBase" target="_blank">
+
+								<img class="gallery__item" src="img/work/9.jpg" alt="Alt">
+
+							</a>
+
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Herobase</h2>
+								<p class="text-block__p">  Equipe de Youtubers comandada por Flakes power, com mais de 1 milhão de inscritos</p>
+							</div>
+
+
+							<a href="https://www.youtube.com/watch?v=rPRIwbHOaUA&t=2s&ab_channel=JPPlays" target="_blank">
+
+								<img class="gallery__item" src="img/work/2.jpg" alt="Alt">
+
+							</a>
+
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">JP PLAYS</h2>
+								<p class="text-block__p"> Canal com mais de 11 milhões de inscritos, com conteúdo focado em minecraft para crianças </p>
+							</div>
+
+							<a href=" https://www.youtube.com/watch?v=bTM_MTViOfI" target="_blank">
+
+								<img class="gallery__item" src="img/work/3.jpg" alt="Alt">
+
+							</a>
+
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Split Futebol</h2>
+								<p class="text-block__p"> Canal focado em informações de futebol </p>
+							</div>
+
+						</div>
+						<!-- right -->
+						<div data-speed="1.1" class="gallery__right">
+
+							<a href="https://www.youtube.com/watch?v=q2sI99zwQZg&t=147s&ab_channel=Jeov%C3%A1DeAries"
+								target="_blank">
+								<img class="gallery__item" src="img/work/8.jpg" alt="Alt">
+							</a>
+							<div class="text-block gallery__item 1">
+								<h2 class="text-block__h">JeováDeAries</h2>
+								<p class="text-block__p"> Youtuber voltado a gameplay de FPS (Tiro em primeira pessoa) </p>
+							</div>
+
+							<a href="https://www.youtube.com/watch?v=sve-QwHqnJs&ab_channel=Manteiga" target="_blank">
+								<img class="gallery__item" src="img/work/4.jpg" alt="Alt">
+							</a>
+
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Hero Manteiga</h2>
+								<p class="text-block__p"> Youtuber com mais de 3 milhões de inscritos, faz parte da equipe Hero Base</p>
+							</div>
+
+							<a href=" https://www.youtube.com/watch?v=swO6ppfeOIs" target="_blank">
+								<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+							</a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">DudaBerud</h2>
+								<p class="text-block__p"> Youtuber com mais de 2 milhões de inscritos, faz parte da equipe Hero Base.</p>
+							</div>
+
+
+								<a href="https://www.youtube.com/watch?v=ZFnXCV7aeJU&ab_channel=Taspio" target="_blank">
+								<img class="gallery__item" src="img/work/6.jpg" alt="Alt">
+							</a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Loud taspio</h2>
+								<p class="text-block__p"> Youtuber com mais de 500 mil inscritos, faz parte da equipe da
+									Loud </p>
+							</div>
+								<a href="https://www.youtube.com/watch?v=ZFnXCV7aeJU&ab_channel=Taspio" target="_blank">
+								<img class="gallery__item" src="img/work/1.jpg" alt="Alt">
+							</a>
+
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Gêmeos Investem</h2>
+								<p class="text-block__p"> Canal com mais de 1,4 milhões de inscritos voltado à educação financeira</p>
+							</div>
+						</div>
+				</div>
+				</main>
+				<!-- para celular -->
+
+				<div class="gallery__container">
+
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=n9QDa-a0nGc&ab_channel=PaulinhoCS%3AGO" target="_blank">
+							<img class="gallery__item" src="img/work/7.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">Paulinho</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">JeováDeAries</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">HeroBase</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">Hero Manteiga</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">JPPlays</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">DudaBerud</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">Split Futebol</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">Loud Taspio</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+					<div class="gallery__content">
+						<a href="https://www.youtube.com/watch?v=swO6ppfeOIs&ab_channel=Dudaberud" target="_blank">
+							<img class="gallery__item" src="img/work/5.jpg" alt="Alt">
+						</a>
+						<h2 class="mobileH2">Gêmeos Investem</h2>
+						<p class="mobileP"> Youtuber com mais de 200 mil inscritos, faz parte da equipe da
+							Loud
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about-content">
+					<h2>Nossa Missão</h2>
+					<p>Com o crescimento exponencial da produção de conteúdo, vemos um aumento significativo de novos
+						criadores. Porém, surge a questão: quem pode aprimorar e elevar essa experiência para um nível
+						mais profissional?
+
+						É aqui que entra em cena a Ira Production, uma empresa especializada em Edição, Motion, Gravação
+						e Decupagem de vídeos e projetos artísticos. Nossa equipe altamente qualificada possui mais de 6
+						anos de experiência em edição de vídeos para influencers e empresas, sempre comprometida em
+						entregar os melhores resultados para seus projetos.
+
+						Portanto, pode confiar em nós e embarcar nessa jornada com a IRA PRODUCTION! Juntos, faremos do
+						seu projeto um verdadeiro sucesso!</p>
+				</div>
+
+
+			</section>
+			<section class="empresas-wrapper">
+				<h2 class="empresas-h2">Empresas parceiras</h2>
+				<div class="empresas">
+					<img src="./img/icons/ifood.png" alt="" style="border-radius: 50%;">
+					<img src="./img/icons/mioDoces.webp" alt="">
+					<img src="./img/icons/unitatis.png" alt="">
+				</div>
+			</section>
+
+		</div>
+	</div>
+	</div>
+	</div>
+
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			const loadEl = document.querySelector('#load');
+			try {
+				let app = firebase.app();
+				let features = [
+					'auth',
+					'database',
+					'firestore',
+					'functions',
+					'messaging',
+					'storage',
+					'analytics',
+					'remoteConfig',
+					'performance',
+				].filter(feature => typeof app[feature] === 'function');
+				loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+			} catch (e) {
+				console.error(e);
+				loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+			}
+		});
+	</script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+</body>
+
+</html>
